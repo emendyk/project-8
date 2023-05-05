@@ -14,7 +14,7 @@ import java.util.Scanner;
 
 public class Analysis {
     public static void main(String[] args) {
-        File inputFile = new File("/Users/evanmendyk/Documents/GitHub/user/src/main/java/edu/guilford/paper.txt");
+        File inputFile = new File("paper.txt");
         Map<String, Integer> wordCounts = new HashMap<String, Integer>();
 
         try (Scanner scanner = new Scanner(inputFile)) {
